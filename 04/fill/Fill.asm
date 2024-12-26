@@ -12,3 +12,65 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+
+//參考:https://hackmd.io/@4txgOiKNTo23AF4JfVTXKg/H1E-3vwbt#Multasm-amp-Fillasm
+//24576-16384(SCREEN) = 8192
+
+(LOOP)
+    @8191
+    D = A
+
+    @i
+    M = D //i=8191
+
+    @24576
+    D=M
+    
+    @BLACK
+    D;JNE
+
+    @WHITE
+    D;JEQ
+@LOOP
+
+0;JMP
+
+(BLACK)
+
+@i
+D = M
+
+@16384
+A = A + D
+M = -1
+
+@i
+M = M - 1
+D = M
+
+@BLACK
+
+D;JGE
+
+@LOOP
+D;JLT
+
+(WHITE)
+
+@i
+D = M
+
+@16384
+A = A + D
+M = 0
+
+@i
+M = M - 1
+D = M
+
+@WHITE
+
+D;JGE
+
+@LOOP
+D;JLT

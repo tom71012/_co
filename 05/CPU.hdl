@@ -39,5 +39,43 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Put your code here:
+    //Determine Type
+    Not(in=instruction[15], out=AinS);
+    Not(in=AinS, out=CinS);
+    
+    And(a=CinS, b=instruction[5], out=ALUtoA);
+    Mux16(a=instruction, b=ALUout, sel=ALUtoA, out=Aregin);
+    
+    Or(a=AinS, b=ALUtoA, out=LoadA);
+    ARegister(in=Aregin, load=LoadA, out=OutA);
+    
+    Mux16(a=OutA, b=inM, sel=instruction[12], out=MuOutA);
+
+    And(a=CinS, b=instruction[4], out=LoadD);
+    DRegister(in=ALUout, load=LoadD, out=OutD);
+    
+    ALU(x=OutD, y=MuOutA, zx=instruction[11], nx=instruction[10], zy=instruction[9], ny=instruction[8], f=instruction[7], no=instruction[6], out=ALUout, zr=Zr, ng=Ng);
+        
+    //Set outputs for writing memory
+    Or16(a=false, b=OutA, out[0..14]=addressM);
+    Or16(a=false, b=ALUout, out=outM);
+    And(a=CinS, b=instruction[3], out=writeM);
+    
+    //PC Part
+    And(a=Zr, b=instruction[1], out=jeq);
+    And(a=Ng, b=instruction[2], out=jlt);
+
+    Or(a=Zr, b=Ng, out=zeroOrNeg);
+    Not(in=zeroOrNeg, out=positive);
+    
+    And(a=positive, b=instruction[0], out=jgt);
+    Or(a=jeq, b=jlt, out=jle);
+    Or(a=jle, b=jgt, out=jumpToA);
+    And(a=CinS, b=jumpToA, out=PCload);
+
+    Not(in=PCload, out=PCinc);
+    PC(in=OutA, inc=PCinc, load=PCload, reset=reset, out[0..14]=pc);
+
+    //參考:https://drive.google.com/file/d/1nEptWuRpFF9zmqlKYq6s1UfDB_dd16vx/view
+    //參考:https://www.youtube.com/watch?v=qqPlV6bbUBM
 }
