@@ -1,0 +1,68 @@
+//vvp ALU.out   
+
+   0ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=0 f=0 no=0 out=     9 zr=0 ng=z
+  10ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=0 f=0 no=1 out=   -10 zr=0 ng=z
+  20ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=0 f=1 no=0 out=     1 zr=0 ng=z
+  30ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=0 f=1 no=1 out=    -2 zr=0 ng=z
+  40ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=1 f=0 no=0 out=     0 zr=1 ng=z
+  50ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=1 f=0 no=1 out=    -1 zr=0 ng=z
+  60ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=1 f=1 no=0 out=    -7 zr=0 ng=z
+  70ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=1 f=1 no=1 out=     6 zr=0 ng=z
+  80ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=0 f=0 no=0 out=     0 zr=1 ng=z
+  90ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=0 f=0 no=1 out=    -1 zr=0 ng=z
+ 100ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=0 f=1 no=0 out=     9 zr=0 ng=z
+ 110ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=0 f=1 no=1 out=   -10 zr=0 ng=z
+ 120ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=1 f=0 no=0 out=     9 zr=0 ng=z
+ 130ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=1 f=0 no=1 out=   -10 zr=0 ng=z
+ 140ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=1 f=1 no=0 out=   -15 zr=0 ng=z
+ 150ns x=     9 y=    15 zx=0 nx=0 zy=1 ny=1 f=1 no=1 out=    14 zr=0 ng=z
+ 160ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=0 f=0 no=0 out=     6 zr=0 ng=z
+ 170ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=0 f=0 no=1 out=    -7 zr=0 ng=z
+ 180ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=0 f=1 no=0 out=    -6 zr=0 ng=z
+ 190ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=0 f=1 no=1 out=     5 zr=0 ng=z
+ 200ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=1 f=0 no=0 out=   -16 zr=0 ng=z
+ 210ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=1 f=0 no=1 out=    15 zr=0 ng=z
+ 220ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=1 f=1 no=0 out= 32766 zr=0 ng=z
+ 230ns x=     9 y=    15 zx=0 nx=1 zy=0 ny=1 f=1 no=1 out=-32767 zr=0 ng=z
+ 240ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=0 f=0 no=0 out=     0 zr=1 ng=z
+ 250ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=0 f=0 no=1 out=    -1 zr=0 ng=z
+ 260ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=0 f=1 no=0 out=   -10 zr=0 ng=z
+ 270ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=0 f=1 no=1 out=     9 zr=0 ng=z
+ 280ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=1 f=0 no=0 out=   -10 zr=0 ng=z
+ 290ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=1 f=0 no=1 out=     9 zr=0 ng=z
+ 300ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=1 f=1 no=0 out= 32758 zr=0 ng=z
+ 310ns x=     9 y=    15 zx=0 nx=1 zy=1 ny=1 f=1 no=1 out=-32759 zr=0 ng=z
+ 320ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=0 f=0 no=0 out=     0 zr=1 ng=z
+ 330ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=0 f=0 no=1 out=    -1 zr=0 ng=z
+ 340ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=0 f=1 no=0 out=    15 zr=0 ng=z
+ 350ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=0 f=1 no=1 out=   -16 zr=0 ng=z
+ 360ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=1 f=0 no=0 out=     0 zr=1 ng=z
+ 370ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=1 f=0 no=1 out=    -1 zr=0 ng=z
+ 380ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=1 f=1 no=0 out=   -16 zr=0 ng=z
+ 390ns x=     9 y=    15 zx=1 nx=0 zy=0 ny=1 f=1 no=1 out=    15 zr=0 ng=z
+ 400ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=0 f=0 no=0 out=     0 zr=1 ng=z
+ 410ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=0 f=0 no=1 out=    -1 zr=0 ng=z
+ 420ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=0 f=1 no=0 out=     0 zr=1 ng=z
+ 430ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=0 f=1 no=1 out=    -1 zr=0 ng=z
+ 440ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=1 f=0 no=0 out=     0 zr=1 ng=z
+ 450ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=1 f=0 no=1 out=    -1 zr=0 ng=z
+ 460ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=1 f=1 no=0 out=    -1 zr=0 ng=z
+ 470ns x=     9 y=    15 zx=1 nx=0 zy=1 ny=1 f=1 no=1 out=     0 zr=1 ng=z
+ 480ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=0 f=0 no=0 out=    15 zr=0 ng=z
+ 490ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=0 f=0 no=1 out=   -16 zr=0 ng=z
+ 500ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=0 f=1 no=0 out=    -9 zr=0 ng=z
+ 510ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=0 f=1 no=1 out=     8 zr=0 ng=z
+ 520ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=1 f=0 no=0 out=   -16 zr=0 ng=z
+ 530ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=1 f=0 no=1 out=    15 zr=0 ng=z
+ 540ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=1 f=1 no=0 out= 32752 zr=0 ng=z
+ 550ns x=     9 y=    15 zx=1 nx=1 zy=0 ny=1 f=1 no=1 out=-32753 zr=0 ng=z
+ 560ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=0 f=0 no=0 out=     0 zr=1 ng=z
+ 570ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=0 f=0 no=1 out=    -1 zr=0 ng=z
+ 580ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=0 f=1 no=0 out=    -1 zr=0 ng=z
+ 590ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=0 f=1 no=1 out=     0 zr=1 ng=z
+ 600ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=1 f=0 no=0 out=    -1 zr=0 ng=z
+ 610ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=1 f=0 no=1 out=     0 zr=1 ng=z
+ 620ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=1 f=1 no=0 out= 32767 zr=0 ng=z
+ 630ns x=     9 y=    15 zx=1 nx=1 zy=1 ny=1 f=1 no=1 out=-32768 zr=0 ng=z
+ALU_test.v:48: $finish called at 640 (1s)
+ 640ns x=     9 y=    15 zx=0 nx=0 zy=0 ny=0 f=0 no=0 out=     9 zr=0 ng=z
