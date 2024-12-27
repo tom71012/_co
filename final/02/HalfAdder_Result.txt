@@ -1,0 +1,6 @@
+//vvp HalfAdder.out
+
+INa=0 Inb=0 sum=0 carry=0
+INa=0 Inb=1 sum=1 carry=0
+INa=1 Inb=0 sum=1 carry=0
+INa=1 Inb=1 sum=0 carry=1
