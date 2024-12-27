@@ -1,0 +1,2 @@
+C:\iverilog\bin\iverilog.exe -o hello hello.v
+C:\iverilog\bin\vvp.exe  hello

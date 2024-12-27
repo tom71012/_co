@@ -1,0 +1,395 @@
+//vvp computer.out
+
+00000000: 0000000000001010
+00000001: 1110110000010000
+00000002: 0000000000000000
+00000003: 1110001100001000
+00000004: 0000000000010000
+00000005: 1110111111001000
+00000006: 0000000000010001
+00000007: 1110101010001000
+00000008: 0000000000010000
+00000009: 1111110000010000
+0000000a: 0000000000000000
+0000000b: 1111010011010000
+0000000c: 0000000000010110
+0000000d: 1110001100000001
+0000000e: 0000000000010000
+0000000f: 1111110000010000
+00000010: 0000000000010001
+00000011: 1111000010001000
+00000012: 0000000000010000
+00000013: 1111110111001000
+00000014: 0000000000001000
+00000015: 1110101010000111
+00000016: 0000000000010001
+00000017: 1111110000010000
+00000018: 0000000000000001
+00000019: 1110001100001000
+0000001a: xxxxxxxxxxxxxxxx
+0000001b: xxxxxxxxxxxxxxxx
+0000001c: xxxxxxxxxxxxxxxx
+0000001d: xxxxxxxxxxxxxxxx
+0000001e: xxxxxxxxxxxxxxxx
+0000001f: xxxxxxxxxxxxxxxx
+   0ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+   5ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+  10ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+  15ns clock=1 pc=    0 I=   10 A=    x D=    x M=    x
+  20ns clock=0 pc=    0 I=   10 A=    x D=    x M=    x
+  25ns clock=1 pc=    0 I=   10 A=    5 D=    x M=    x
+  30ns clock=0 pc=    0 I=   10 A=    5 D=    x M=    x
+  35ns clock=1 pc=    0 I=   10 A=    5 D=    x M=    x
+  40ns clock=0 pc=    0 I=   10 A=    5 D=    x M=    x
+  45ns clock=1 pc=    5 I=61384 A=    5 D=    x M=    x
+  50ns clock=0 pc=    5 I=61384 A=    5 D=    x M=    x
+  55ns clock=1 pc=    5 I=61384 A=30692 D=    x M=    x
+  60ns clock=0 pc=    5 I=61384 A=30692 D=    x M=    x
+  65ns clock=1 pc=30692 I=    x A=30692 D=    x M=    x
+  70ns clock=0 pc=30692 I=    x A=30692 D=    x M=    x
+  75ns clock=1 pc=    X I=    x A=    x D=    x M=    x
+  80ns clock=0 pc=    X I=    x A=    x D=    x M=    x
+  85ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+  90ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+  95ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 100ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 105ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 110ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 115ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 120ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 125ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 130ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 135ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 140ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 145ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 150ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 155ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 160ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 165ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 170ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 175ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 180ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 185ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 190ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 195ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 200ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 205ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 210ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 215ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 220ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 225ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 230ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 235ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 240ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 245ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 250ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 255ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 260ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 265ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 270ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 275ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 280ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 285ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 290ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 295ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 300ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 305ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 310ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 315ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 320ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 325ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 330ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 335ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 340ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 345ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 350ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 355ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 360ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 365ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 370ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 375ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 380ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 385ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 390ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 395ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 400ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 405ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 410ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 415ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 420ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 425ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 430ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 435ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 440ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 445ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 450ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 455ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 460ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 465ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 470ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 475ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 480ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 485ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 490ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 495ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 500ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 505ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 510ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 515ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 520ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 525ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 530ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 535ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 540ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 545ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 550ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 555ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 560ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 565ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 570ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 575ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 580ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 585ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 590ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 595ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 600ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 605ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 610ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 615ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 620ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 625ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 630ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 635ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 640ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 645ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 650ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 655ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 660ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 665ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 670ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 675ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 680ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 685ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 690ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 695ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 700ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 705ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 710ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 715ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 720ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 725ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 730ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 735ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 740ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 745ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 750ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 755ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 760ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 765ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 770ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 775ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 780ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 785ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 790ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 795ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 800ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 805ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 810ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 815ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 820ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 825ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 830ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 835ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 840ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 845ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 850ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 855ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 860ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 865ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 870ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 875ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 880ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 885ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 890ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 895ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 900ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 905ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 910ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 915ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 920ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 925ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 930ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 935ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 940ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 945ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 950ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 955ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 960ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 965ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 970ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 975ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 980ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 985ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+ 990ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+ 995ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1000ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1005ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1010ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1015ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1020ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1025ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1030ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1035ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1040ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1045ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1050ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1055ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1060ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1065ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1070ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1075ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1080ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1085ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1090ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1095ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1100ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1105ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1110ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1115ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1120ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1125ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1130ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1135ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1140ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1145ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1150ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1155ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1160ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1165ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1170ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1175ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1180ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1185ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1190ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1195ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1200ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1205ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1210ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1215ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1220ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1225ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1230ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1235ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1240ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1245ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1250ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1255ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1260ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1265ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1270ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1275ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1280ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1285ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1290ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1295ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1300ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1305ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1310ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1315ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1320ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1325ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1330ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1335ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1340ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1345ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1350ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1355ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1360ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1365ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1370ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1375ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1380ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1385ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1390ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1395ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1400ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1405ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1410ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1415ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1420ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1425ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1430ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1435ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1440ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1445ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1450ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1455ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1460ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1465ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1470ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1475ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1480ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1485ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1490ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1495ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1500ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1505ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1510ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1515ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1520ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1525ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1530ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1535ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1540ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1545ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1550ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1555ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1560ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1565ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1570ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1575ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1580ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1585ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1590ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1595ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1600ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1605ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1610ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1615ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1620ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1625ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1630ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1635ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1640ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1645ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1650ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1655ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1660ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1665ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1670ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1675ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1680ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1685ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1690ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1695ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1700ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1705ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1710ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1715ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1720ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1725ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1730ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1735ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1740ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1745ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1750ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1755ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1760ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1765ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1770ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1775ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1780ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1785ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1790ns clock=0 pc=    x I=    x A=    x D=    x M=    x
+1795ns clock=1 pc=    x I=    x A=    x D=    x M=    x
+1800ns clock=0 pc=    x I=    x A=    x D=    x M=    x
