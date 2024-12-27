@@ -1,0 +1,63 @@
+ //vvp Mux.out(With wire)  
+ 
+   0ns sel=0 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0
+  50ns sel=1 mux2=0000 mux4=0000 mux8=0004 mux01=1 dmux0=1 dmux1=0
+ 100ns sel=2 mux2=0000 mux4=0002 mux8=0002 mux01=0 dmux0=1 dmux1=0
+ 150ns sel=3 mux2=0000 mux4=0002 mux8=0006 mux01=1 dmux0=1 dmux1=0
+ 200ns sel=4 mux2=0001 mux4=0001 mux8=0001 mux01=0 dmux0=0 dmux1=1
+ 250ns sel=5 mux2=0001 mux4=0001 mux8=0005 mux01=1 dmux0=0 dmux1=1
+ 300ns sel=6 mux2=0001 mux4=0003 mux8=0003 mux01=0 dmux0=0 dmux1=1
+ 350ns sel=7 mux2=0001 mux4=0003 mux8=0007 mux01=1 dmux0=0 dmux1=1
+ 400ns sel=0 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0
+ 450ns sel=1 mux2=0000 mux4=0000 mux8=0004 mux01=1 dmux0=1 dmux1=0
+ Mux_test.v:34: $finish called at 500 (1s)
+ 500ns sel=2 mux2=0000 mux4=0002 mux8=0002 mux01=0 dmux0=1 dmux1=0
+
+    //iverilog Mux1.out  Mux_test.v
+
+    ./mux.v:37: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:37:        : Padding 15 high bits of the port.
+    ./mux.v:38: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:38:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 1 (a) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 2 (b) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:37: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:37:        : Padding 15 high bits of the port.
+    ./mux.v:38: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:38:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 1 (a) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 2 (b) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:44: warning: Port 6 (out) of Mux4Way16 expects 16 bits, got 1.
+    ./mux.v:44:        : Padding 15 high bits of the port.
+    ./mux.v:37: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:37:        : Padding 15 high bits of the port.
+    ./mux.v:38: warning: Port 4 (out) of Mux16 expects 16 bits, got 1.
+    ./mux.v:38:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 1 (a) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:39: warning: Port 2 (b) of Mux16 expects 16 bits, got 1.
+    ./mux.v:39:        : Padding 15 high bits of the port.
+    ./mux.v:45: warning: Port 6 (out) of Mux4Way16 expects 16 bits, got 1.
+    ./mux.v:45:        : Padding 15 high bits of the port.
+    ./mux.v:46: warning: Port 1 (a) of Mux16 expects 16 bits, got 1.
+    ./mux.v:46:        : Padding 15 high bits of the port.
+    ./mux.v:46: warning: Port 2 (b) of Mux16 expects 16 bits, got 1.
+    ./mux.v:46:        : Padding 15 high bits of the port.
+
+    //vvp Mux1.out(No wire)
+      0ns sel=0 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0
+      50ns sel=1 mux2=0000 mux4=0000 mux8=0000 mux01=1 dmux0=1 dmux1=0
+    100ns sel=2 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0
+    150ns sel=3 mux2=0000 mux4=0000 mux8=0000 mux01=1 dmux0=1 dmux1=0
+    200ns sel=4 mux2=0001 mux4=0001 mux8=0001 mux01=0 dmux0=0 dmux1=1
+    250ns sel=5 mux2=0001 mux4=0001 mux8=0001 mux01=1 dmux0=0 dmux1=1
+    300ns sel=6 mux2=0001 mux4=0001 mux8=0001 mux01=0 dmux0=0 dmux1=1
+    350ns sel=7 mux2=0001 mux4=0001 mux8=0001 mux01=1 dmux0=0 dmux1=1
+    400ns sel=0 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0
+    450ns sel=1 mux2=0000 mux4=0000 mux8=0000 mux01=1 dmux0=1 dmux1=0
+    Mux_test.v:34: $finish called at 500 (1s)
+    500ns sel=2 mux2=0000 mux4=0000 mux8=0000 mux01=0 dmux0=1 dmux1=0

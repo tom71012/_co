@@ -1,0 +1,14 @@
+//vvp gates.out   
+
+   0ns a=0 b=0 aNandb=1 Nota=1  aAndb=0 aOrb=0 aXorb=0
+  50ns a=1 b=0 aNandb=1 Nota=0  aAndb=0 aOrb=1 aXorb=1
+ 100ns a=0 b=1 aNandb=1 Nota=1  aAndb=0 aOrb=1 aXorb=1
+ 150ns a=1 b=1 aNandb=0 Nota=0  aAndb=1 aOrb=1 aXorb=0
+ 200ns a=0 b=0 aNandb=1 Nota=1  aAndb=0 aOrb=0 aXorb=0
+ 250ns a=1 b=0 aNandb=1 Nota=0  aAndb=0 aOrb=1 aXorb=1
+ 300ns a=0 b=1 aNandb=1 Nota=1  aAndb=0 aOrb=1 aXorb=1
+ 350ns a=1 b=1 aNandb=0 Nota=0  aAndb=1 aOrb=1 aXorb=0
+ 400ns a=0 b=0 aNandb=1 Nota=1  aAndb=0 aOrb=0 aXorb=0
+ 450ns a=1 b=0 aNandb=1 Nota=0  aAndb=0 aOrb=1 aXorb=1
+gates_test.v:29: $finish called at 500 (1s)
+ 500ns a=0 b=1 aNandb=1 Nota=1  aAndb=0 aOrb=1 aXorb=1
