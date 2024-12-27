@@ -1,0 +1,19 @@
+//vvp RAM16.out
+
+   0ns in=    x clock=0 load=x address=    x out=    x
+   2ns in=    x clock=1 load=x address=    x out=    x
+   4ns in=    x clock=0 load=x address=    x out=    x
+   6ns in=    x clock=1 load=x address=    x out=    x
+   8ns in=    x clock=0 load=x address=    x out=    x
+  10ns in=    3 clock=1 load=1 address=    5 out=    3
+  12ns in=    3 clock=0 load=1 address=    5 out=    3
+  14ns in=    3 clock=1 load=1 address=    5 out=    3
+  16ns in=    3 clock=0 load=1 address=    5 out=    3
+  18ns in=    3 clock=1 load=1 address=    5 out=    3
+  20ns in=    3 clock=0 load=0 address=    5 out=    3
+  22ns in=    3 clock=1 load=0 address=    5 out=    3
+  24ns in=    3 clock=0 load=0 address=    5 out=    3
+  26ns in=    3 clock=1 load=0 address=    5 out=    3
+  28ns in=    3 clock=0 load=0 address=    5 out=    3
+  RAM16_test.v:17: $finish called at 30 (1s)
+  30ns in=    3 clock=1 load=0 address=    5 out=    3
